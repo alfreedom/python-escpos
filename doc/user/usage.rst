@@ -121,7 +121,7 @@ on a USB interface.
     # Print QR Code
     p.qr("You can readme from your smartphone")
     # Print barcode
-    p.barcode('1324354657687','EAN13',64,2,'','')
+    p.barcode('4006381333931','EAN13',64,2,'','')
     # Cut paper
     p.cut()
 
@@ -237,6 +237,8 @@ However, please keep in mind, that often it is easier and better to just supply 
 Here you can download an example, that will print a set of common barcodes:
 
     * :download:`barcode.bin </download/barcode.bin>` by `@mike42 <https://github.com/mike42>`_
+
+.. _advanced-usage-change-capabilities-profile:
 
 Advanced Usage: change capabilities-profile
 -------------------------------------------
